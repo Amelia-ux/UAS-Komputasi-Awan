@@ -25,8 +25,8 @@
             </p>
             <p>
                 <label for="jenisKelamin">Jenis Kelamin: </label>
-                <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki</label>
-                <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
+                <label><input type="radio" name="jenisKelamin" value="laki-laki"> Laki-laki</label>
+                <label><input type="radio" name="jenisKelamin" value="perempuan"> Perempuan</label>
             </p>
             <p>
                 <label for="agama">Agama: </label>
