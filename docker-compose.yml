@@ -21,7 +21,7 @@ services:
     container_name: gallery-db
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: pendaftaran_peserta
+      MYSQL_DATABASE: gallery
       MYSQL_ROOT_PASSWORD:
       MYSQL_PASSWORD:
       MYSQL_USER: root
