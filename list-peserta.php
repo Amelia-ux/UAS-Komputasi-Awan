@@ -27,7 +27,7 @@
 				<td><?php echo $no++; ?></td>
 				<td><?php echo $d['nama']; ?></td>
 				<td><?php echo $d['alamat']; ?></td>
-				<td><?php echo $d['jenis_kelamin']; ?></td>
+				<td><?php echo $d['jenisKelamin']; ?></td>
 				<td><?php echo $d['agama']; ?></td>
 				<td><?php echo $d['sekolah']; ?></td>
 				<td>

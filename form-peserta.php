@@ -24,7 +24,7 @@
                 <textarea name="alamat" required></textarea>
             </p>
             <p>
-                <label for="jenis_kelamin">Jenis Kelamin: </label>
+                <label for="jenisKelamin">Jenis Kelamin: </label>
                 <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki</label>
                 <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
             </p>
@@ -57,7 +57,7 @@
                                     '" . $_POST['id'] . "',
 									'" . $_POST['nama'] . "',
 									'" . $_POST['alamat'] . "', 
-									'" . $_POST['jenis_kelamin'] . "',
+									'" . $_POST['jenisKelamin'] . "',
 									'" . $_POST['agama'] . "',
 									'" . $_POST['sekolah'] . "')");
         if ($insert) {
